@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<style>
+	main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+</style>
+
+<main class="container">
+	<header>
+		<h1>went to <mark>{{ .Title }}</mark><a href="/passport">.</a></h1>
+	</header>
+</main>
+
+{{ end }}

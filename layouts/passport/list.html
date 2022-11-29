@@ -31,21 +31,10 @@
 	<section>
 		<strong>{{ .Key }}</strong>
 		{{ range .Pages }}
-		<a href="{{ .RelPermalink }}">{{- .Params.Countries -}}.</a>
+		<a href="{{ .RelPermalink }}">{{ .Title }}.</a>
 		{{ end}}
 	</section>
 	{{ end }}
-
-	<!-- <section>
-		<strong>2022.</strong> Thalaind, India. Denmark. Brazil. Belgium,
-		Netherlands.
-	</section>
-	<section><strong>2021.</strong> Greece. Spain. Portugal.</section>
-	<section><strong>2020.</strong> Greece. Hungary. Austria.</section>
-	<section>
-		<strong>2019.</strong> India. Netherlands. Honduras, Mexico. Spain. Belgium.
-		Switzerland. Slovenia. Vietnam. Norway.
-	</section> -->
 </main>
 
 {{ end }}
