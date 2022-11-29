@@ -20,7 +20,7 @@
 	h1 {
 		font-size: clamp(2rem, 4vw, 3rem);
 		letter-spacing: clamp(2px, 0.6vw, 5px);
-		margin-bottom: 1rem;
+		margin-bottom: 1.5rem;
 		font-weight: 200;
 	}
 	h1 mark {
@@ -32,6 +32,9 @@
 		font-size: 1.25rem;
 		list-style: none;
 	}
+	li {
+		margin-bottom: 0.5rem;
+	}
 	@media screen and (min-width: 30rem) {
 		ul {
 			display: flex;
@@ -42,9 +45,8 @@
 		margin-inline: 0.5rem;
 		padding-inline: 0.25rem;
 		letter-spacing: -0.25px;
-		display: block;
 		border-bottom: 1px solid transparent;
-		padding-bottom: 3px;
+		padding-bottom: 2px;
 	}
 	a:hover {
 		border-bottom-color: var(--gray);
