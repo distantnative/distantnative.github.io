@@ -1,0 +1,51 @@
+{{ define "main" }}
+<style>
+	header {
+		padding-block: 7rem;
+	}
+	header h1 {
+		font-size: 3rem;
+		font-weight: 200;
+	}
+	section {
+		margin-bottom: 3rem;
+		font-size: 1.75rem;
+		font-weight: 200;
+	}
+	section strong {
+		display: block;
+		font-weight: bold;
+		margin-bottom: 0.75rem;
+		font-size: 1.35rem;
+	}
+</style>
+
+<main class="container">
+	<header>
+		<h1>
+			<mark>Passport<a href="/">.</a></mark>
+		</h1>
+	</header>
+
+	{{ range (.Pages.GroupByParamDate "start" "2006").Reverse }}
+	<section>
+		<strong>{{ .Key }}</strong>
+		{{ range .Pages }}
+		<a href="{{ .RelPermalink }}">{{- .Params.Countries -}}.</a>
+		{{ end}}
+	</section>
+	{{ end }}
+
+	<!-- <section>
+		<strong>2022.</strong> Thalaind, India. Denmark. Brazil. Belgium,
+		Netherlands.
+	</section>
+	<section><strong>2021.</strong> Greece. Spain. Portugal.</section>
+	<section><strong>2020.</strong> Greece. Hungary. Austria.</section>
+	<section>
+		<strong>2019.</strong> India. Netherlands. Honduras, Mexico. Spain. Belgium.
+		Switzerland. Slovenia. Vietnam. Norway.
+	</section> -->
+</main>
+
+{{ end }}

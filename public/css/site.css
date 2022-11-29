@@ -1,0 +1,69 @@
+header {
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1.5rem;
+}
+header > div {
+	display: block;
+	text-align: center;
+}
+header img {
+	width: 20rem;
+	background: rgb(247, 248, 129);
+	background: radial-gradient(
+		circle at 42% 50%,
+		rgba(247, 248, 129, 1) 30%,
+		rgba(255, 255, 255, 1) 50%
+	);
+}
+header h1 {
+	font-size: clamp(2rem, 4vw, 3rem);
+	letter-spacing: clamp(2px, 0.6vw, 5px);
+	margin-bottom: 1rem;
+	font-weight: 200;
+}
+mark {
+	margin: 0 -0.4em;
+	padding: 0.2em 0.4em;
+	border-radius: 0.8em 0.3em;
+	background: transparent;
+	background-image: linear-gradient(
+		to right,
+		rgba(255, 225, 0, 0.1),
+		rgba(247, 248, 129, 0.9) 4%,
+		rgba(255, 225, 0, 0.3)
+	);
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	line-height: 1.75;
+}
+header ul {
+	font-size: 1.25rem;
+	list-style: none;
+}
+@media screen and (min-width: 30rem) {
+	header ul {
+		display: flex;
+		justify-content: center;
+	}
+}
+header a,
+header a:visited {
+	text-decoration: none;
+	color: #000;
+	padding-inline: 0.75rem;
+	letter-spacing: -0.25px;
+	display: block;
+}
+a:hover {
+	text-decoration: underline;
+}
+::selection {
+	background: #f7f881;
+}
+p {
+	text-align: center;
+	opacity: 0.5;
+}

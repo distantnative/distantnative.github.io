@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>distant native and locale naive</title>
+    <link>http://distantnative.com/passport/</link>
+    <description>Recent content on distant native and locale naive</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://distantnative.com/passport/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://distantnative.com/passport/2022/brazil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://distantnative.com/passport/2022/brazil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://distantnative.com/passport/2022/denmark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://distantnative.com/passport/2022/denmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://distantnative.com/passport/2022/thailand_india/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://distantnative.com/passport/2022/thailand_india/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

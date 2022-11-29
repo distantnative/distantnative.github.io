@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+		{{ $styles := resources.Get "css/index.css" | minify }}
+		<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen" />
+	</head>
+	<body>
+		{{ block "main" . }}{{ end }}
+	</body>
+</html>

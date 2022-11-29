@@ -1,0 +1,4 @@
+baseURL = 'http://distantnative.com/'
+languageCode = 'en-us'
+title = 'distant native and locale naive'
+disableKinds = ['taxonomy', 'term']
